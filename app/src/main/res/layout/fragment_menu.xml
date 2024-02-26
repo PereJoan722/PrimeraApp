@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnComprobar"
+            android:layout_width="5dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:src="@drawable/ico_home" />
+
+        <ImageButton
+            android:id="@+id/imgbtnListado"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <ImageButton
+            android:id="@+id/imgbtnCalculadora"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="#000000" />
+
+        <ImageButton
+            android:id="@+id/imgbtnGaleria"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+    </LinearLayout>
+
+</FrameLayout>
